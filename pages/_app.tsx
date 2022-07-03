@@ -78,7 +78,7 @@ ReservoirSDK.init({
 })
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const defaultTheme = DARK_MODE_ENABLED ? 'dark' : 'light'
+  const defaultTheme = 'dark' // DARK_MODE_ENABLED ? 'dark' : 'light'
 
   return (
     <GlobalProvider>
