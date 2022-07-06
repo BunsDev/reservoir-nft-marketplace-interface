@@ -6,12 +6,14 @@
     "build": "next build",
     "bdev": "next build && next dev",
     "start": "next start",
+    "clean": "rm -rf node_modules && rm -rf yarn.lock",
     "lint": "next lint"
   },
   "dependencies": {
     "@react-hookz/web": "^14.2.2",
     "next": "latest",
     "next-themes": "^0.2.0",
+    "nfnt-sdk": "^0.0.118",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-markdown": "^8.0.3"

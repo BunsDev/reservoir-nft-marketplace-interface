@@ -13,7 +13,7 @@ import calculateOffer from 'lib/calculateOffer'
 import FormatEth from './FormatEth'
 import expirationPresets from 'lib/offerExpirationPresets'
 import useCollectionStats from 'hooks/useCollectionStats'
-import { Common } from '@reservoir0x/sdk'
+import { Common } from 'nfnt-sdk'
 import getWeth from 'lib/getWeth'
 import useTokens from 'hooks/useTokens'
 import {

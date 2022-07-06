@@ -13,7 +13,7 @@ import calculateOffer from 'lib/calculateOffer'
 import { SWRResponse } from 'swr'
 import FormatEth from './FormatEth'
 import expirationPresets from 'lib/offerExpirationPresets'
-import { Weth } from '@reservoir0x/sdk/dist/common/helpers'
+import { Weth } from 'nfnt-sdk/dist/common/helpers'
 import getWeth from 'lib/getWeth'
 import {
   Execute,

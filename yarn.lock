@@ -4397,6 +4397,14 @@ next@latest:
     "@next/swc-win32-ia32-msvc" "12.1.4"
     "@next/swc-win32-x64-msvc" "12.1.4"
 
+nfnt-sdk@^0.0.118:
+  version "0.0.118"
+  resolved "https://registry.yarnpkg.com/nfnt-sdk/-/nfnt-sdk-0.0.118.tgz#df2ae900d7f57f431aee4c157b9b089b96079c5d"
+  integrity sha512-kMpu1tMN8DRLLFb2PssP+Y6v6sWoEQENdDL3OjsVPwr2vlWmOFvs/ermO6p/gwybR4eiC1ArDbm1dOlrrBU1bQ==
+  dependencies:
+    ethers "^5.5.2"
+    merkletreejs "^0.2.27"
+
 node-addon-api@^2.0.0:
   version "2.0.2"
   resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-2.0.2.tgz"
