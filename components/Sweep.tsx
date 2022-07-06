@@ -359,8 +359,8 @@ const Sweep: FC<Props> = ({ tokens, collection, mutate, setToast }) => {
                           <img
                             src={
                               !!DARK_MODE
-                                ? `/reservoir_watermark_dark.svg`
-                                : `/reservoir_watermark_light.svg`
+                                ? `/title-logo-words.png`
+                                : `/title-logo-words.png`
                             }
                           />
                         </a>

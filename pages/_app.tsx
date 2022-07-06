@@ -64,7 +64,7 @@ const client = createClient({
       new CoinbaseWalletConnector({
         chains,
         options: {
-          appName: 'reservoir.market',
+          appName: 'nfnt.art',
           chainId: chain.id,
           jsonRpcUrl: rpcUrl,
         },

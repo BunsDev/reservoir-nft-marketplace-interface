@@ -104,8 +104,8 @@ const ModalCard: FC<Props> = ({
                   <img
                     src={
                       !!DARK_MODE
-                        ? `/reservoir_watermark_dark.svg`
-                        : `/reservoir_watermark_light.svg`
+                        ? `/title-logo-words.png`
+                        : `/title-logo-words.png`
                     }
                   />
                 </a>

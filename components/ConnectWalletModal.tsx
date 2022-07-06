@@ -1,6 +1,6 @@
 import React, { FC, useContext } from 'react'
 import * as Dialog from '@radix-ui/react-dialog'
-import { HiX } from 'react-icons/hi'
+// import { HiX } from 'react-icons/hi'
 import { useConnect } from 'wagmi'
 import { FiChevronRight } from 'react-icons/fi'
 import { GlobalContext } from 'context/GlobalState'
@@ -28,8 +28,8 @@ const ConnectWalletModal: FC = () => {
           <Dialog.Content className="fixed inset-0 z-[1000] bg-[#000000b6]">
             <div className="fixed top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2 transform">
               <div className="px-5">
-                <div className="mx-auto rounded-2xl border border-neutral-300 bg-white py-11 shadow-xl dark:border-neutral-600 dark:bg-black md:w-[460px]">
-                  <div className="mx-12 mb-4 flex items-center justify-between">
+                <div className="mx-auto rounded-2xl border border-neutral-300 bg-white py-1 shadow-xl dark:border-neutral-600 dark:bg-black md:w-[460px]">
+                  {/* <div className="mx-12 mb-4 flex items-center justify-between">
                     <Dialog.Title className="reservoir-h4 font-headings dark:text-white">
                       Connect Wallet
                     </Dialog.Title>
@@ -39,7 +39,7 @@ const ConnectWalletModal: FC = () => {
                   </div>
                   <div className="reservoir-body-2 my-8 mx-12 dark:text-white">
                     Choose your preferred wallet provider
-                  </div>
+                  </div> */}
                   <Wallets />
                 </div>
               </div>

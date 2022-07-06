@@ -4,6 +4,7 @@
     "dev": "next dev",
     "prettier": "prettier --write .",
     "build": "next build",
+    "bdev": "next build && next dev",
     "start": "next start",
     "lint": "next lint"
   },
